@@ -1,28 +1,28 @@
 class AeolusTrierarch < Formula
   desc "Crews the ships of an Aeolus fleet on this machine"
   homepage "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch"
-  version "0.41.1"
+  version "0.41.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.1/aeolus-trierarch-darwin-arm64"
-      sha256 "d77f2c228eb2d58d0036bf012d1d01b0d7977f06e24b7300eedc74fddfc96354"
+      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.2/aeolus-trierarch-darwin-arm64"
+      sha256 "787357f559b279c356338aabf8aede748108a5ce2103e3539a74b13d5d580b1f"
     end
     on_intel do
-      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.1/aeolus-trierarch-darwin-amd64"
-      sha256 "7051eae551d024e8ec5d389318231da9072c4c764701c415e27fba04a284aa98"
+      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.2/aeolus-trierarch-darwin-amd64"
+      sha256 "304bba7f56e39c7ace243266ec5bff67d8d71b45909628a5a9a5e0648e8de4b2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.1/aeolus-trierarch-linux-arm64"
-      sha256 "56f1a418e5b4030b719a5dfb51456b42fe9bb34fdc183061fa41b0721aa17cf0"
+      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.2/aeolus-trierarch-linux-arm64"
+      sha256 "4e6ee24e53a3159abab54b4ebe5ebfdff35b0b33521236c6df6e43a9d8cfd1d7"
     end
     on_intel do
-      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.1/aeolus-trierarch-linux-amd64"
-      sha256 "58f18fad1a778e6f39ac17cde4d9d3a9c50295245adeac62300af2f80cf5e051"
+      url "https://github.com/ThomasHendrickx/aeolus-fleet-trierarch/releases/download/v0.41.2/aeolus-trierarch-linux-amd64"
+      sha256 "0dbeb20507a9ea5e9b7dfb152e63291f58ca801d6e2fd2307df7e3c16bcfe06b"
     end
   end
 
